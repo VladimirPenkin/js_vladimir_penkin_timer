@@ -8,7 +8,7 @@ function startTime () {
 		if (i <= 30) {
 			time.innerHTML = i++;
 		} else {
-			stopTimer(myTime);
+			stopTime(myTime);
 		};
 	};
 };
